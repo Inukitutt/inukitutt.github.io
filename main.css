@@ -1,0 +1,89 @@
+/*!normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css*/html {
+ font-family:sans-serif;
+ line-height:1.15;
+ -ms-text-size-adjust:100%;
+ -webkit-text-size-adjust:100%
+}
+body {
+ margin:0;
+ background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+        url(RPlace.png);
+ background-repeat: no-repeat, no-repeat;
+ background-size: cover;
+ overflow: hidden;
+ line-height: 1.5;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+}
+.main {
+    width:100%;
+    padding-top: 1rem;
+    padding-bottom: 14rem;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+.links{
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 0 10px 0!important;
+}
+.description{
+  flex: 1 1 auto;
+  min-height:1px;
+  padding:15px;
+}
+.card {
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  background-color:#1c141d;
+  border:1px solid rgba(250,250,246,.125);
+  border-radius: 25px;
+ }
+ .list-item{
+  color:#cee6e0 !important;
+  position:relative;
+  display:flex;
+  flex-flow:row wrap;
+  align-items:center;
+  padding:.50rem 1rem;
+  margin-bottom:-1px;
+  background-color:#1c141d;
+  border:1px solid rgba(250,250,246,.125);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background:#111;
+  border-top:1px solid rgba(255,255,255,.125);
+ }
+ .text-center {
+  text-align:center;
+  color: #cacaca;
+  margin: 0;
+ }
+ .text-muted {
+  color:#759aab!important
+ }
+#main-line{
+  color:#b39ddb;
+  font-weight: bold;
+  font-size: 24px !important;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+h2{
+  font-family: 'Rubik Glitch', cursive !important;
+  font-size: 40px !important;
+  margin: 0; 
+}
+.list-group {
+  display:flex;
+  flex-direction:column;
+  padding-left:0;
+  margin-bottom:0
+ }
+/* ------------------------------------------------------ */
