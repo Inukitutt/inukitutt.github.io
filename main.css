@@ -10,7 +10,6 @@ body {
  background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
         url(RPlace.png);
- background-repeat: no-repeat, no-repeat;
  background-size: cover;
  overflow: auto;
  line-height: 1.5;
